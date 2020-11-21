@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React, {useState, useEffect} from 'react';
 import {StyleSheet, View, Text} from 'react-native';
 import {TextInput, Button} from 'react-native-paper';
 
@@ -19,8 +19,8 @@ const AddEntry = () => {
     const [description, setDesc] = useState('');
 
 function entryHandling(addID, addName, addDesc){
-    let urlA = "v2-296218.wm.r.appspot.com/api/add"
-    let urlB = "v2-296218.wm.r.appspot.com/api/mod"
+    let urlA = "v2-296218.wm.r.appspot.com/api/add";
+    let urlB = "v2-296218.wm.r.appspot.com/api/mod";
 
     fetch(urlA, {
 method: 'post',
