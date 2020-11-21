@@ -6,7 +6,8 @@ import AddEntry from './components/addCourse.jsx'
 const App = () => {
   return (
     <View style={styles.container}>
-<AddEntry />
+      <AddEntry />
+    
     </View>
   );
 }
