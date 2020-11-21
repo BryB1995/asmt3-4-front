@@ -56,7 +56,7 @@ body: JSON.stringify({
 return (
 
 
-    <view>
+    <View>
            <TextInput label="name" mode="outlined" placeholder="Course name" value = {name} onChangeText={ (text)=>{setName(text);}} />
         <TextInput label="id" mode="outlined" placeholder="Course ID" value = {id} onChangeText={ (text)=>{setId(text);}} />
         <TextInput label="description" mode="outlined" placeholder="Course description" value = {description} onChangeText={ (text)=>{setDesc(text);}} />
@@ -69,7 +69,7 @@ style={{marginTop:10, marginBottom:20}}
 >
 Add course
 </Button>
-</view>
+</View>
 );
 }
 export default AddEntry;
