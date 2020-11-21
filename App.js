@@ -1,12 +1,12 @@
 
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
-import addEntry from './components/addCourse.jsx'
+import AddEntry from './components/addCourse.jsx'
 
 export default function App() {
   return (
     <View style={styles.container}>
-<addEntry />
+<AddEntry />
     </View>
   );
 }

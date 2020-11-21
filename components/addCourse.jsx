@@ -12,7 +12,7 @@ const styles = StyleSheet.create({
 
 });
 
-const addEntry = () => {
+const AddEntry = () => {
     //td
     const [id, setId] = useState('00000000');
     const [name, setName] = useState('PHLD-0000');
@@ -72,4 +72,4 @@ Add course
 </view>
 );
 }
-export default addEntry;
+export default AddEntry;
