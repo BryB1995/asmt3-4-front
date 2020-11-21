@@ -58,7 +58,7 @@ return (
 
     <view>
            <TextInput label="name" mode="outlined" placeholder="Course name" value = {name} onChangeText={ (text)=>{setName(text);}} />
-        <TextInput label="id" mode="outlined" placeholder="Course ID" value = {code} onChangeText={ (text)=>{setId(text);}} />
+        <TextInput label="id" mode="outlined" placeholder="Course ID" value = {id} onChangeText={ (text)=>{setId(text);}} />
         <TextInput label="description" mode="outlined" placeholder="Course description" value = {description} onChangeText={ (text)=>{setDesc(text);}} />
 
 
