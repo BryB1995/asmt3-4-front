@@ -19,8 +19,8 @@ const AddEntry = () => {
     const [description, setDesc] = useState('');
 
 function entryHandling(addID, addName, addDesc){
-    let urlA = "v2-296218.wm.r.appspot.com/api/add";
-    let urlB = "v2-296218.wm.r.appspot.com/api/mod";
+    let urlA = "https://v2-296218.wm.r.appspot.com/api/add";
+    let urlB = "https://v2-296218.wm.r.appspot.com/api/mod";
 
     fetch(urlA, {
 method: 'post',
@@ -29,7 +29,7 @@ headers: {
 },
 body: JSON.stringify({
   "id":addID,
-  "name":addName
+  "name":addName,
 })
     })
     .catch(function (error) {
@@ -44,7 +44,7 @@ body: JSON.stringify({
         },
         body: JSON.stringify({
           "id":addID,
-          "description":addDesc
+          "description":addDesc,
         })
             })
             .catch(function (error) {
