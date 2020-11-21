@@ -29,7 +29,7 @@ headers: {
 },
 body: JSON.stringify({
   "id":addID,
-  "name":addName,
+  "name":addName
 })
     })
     .catch(function (error) {
@@ -44,7 +44,7 @@ body: JSON.stringify({
         },
         body: JSON.stringify({
           "id":addID,
-          "description":addDesc,
+          "description":addDesc
         })
             })
             .catch(function (error) {
