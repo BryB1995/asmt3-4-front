@@ -3,7 +3,7 @@ import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
 import AddEntry from './components/addCourse.jsx'
 
-export default function App() {
+const App = () => {
   return (
     <View style={styles.container}>
 <AddEntry />
@@ -19,3 +19,4 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
   },
 });
+export default App;
